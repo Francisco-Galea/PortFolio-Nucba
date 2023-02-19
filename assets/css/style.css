@@ -5,7 +5,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* HERo */
+
+/* HERO */
 
 .hero::after {
     content: '';
@@ -48,90 +49,92 @@ body {
     width: 180px;
 }
 
-.hero-content .title {
+.hero-content .titulo {
     font-size: 2.2rem;
     margin-top: 1rem;
 }
 
-.hero-content .text {
+.hero-content .texto {
     line-height: 1.7;
     margin-top: 1rem;
 }
 
 /*  FIN HERO */
 
+
 /*    CARD   */
 
 #info {
-  padding: 70px 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 90px;   
+    padding: 70px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;   
 }
 
 #info h2 {
-  font-size: 32px;
-  font-weight: 800;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .info-cards-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .info-card {
-  width: 300px;
-  height: 290px;
-  padding: 40px 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-  border-radius: 10px;
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 10px;
 }
 
 .info-card img {
-  width: 110px;
-  border-radius: 5%;
+    width: 110px;
+    border-radius: 5%;
 }
 
 .info-card h3 {
-  font-weight: 600;
-  font-size: 25px;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .info-card p {
-  font-size: 20px;
-  font-weight: 300;
+    font-size: 20px;
+    font-weight: 300;
  
 }
 
 /*   FIN CARD   */
 
+
 /*   SOBRE MI   */
 
-.container {
+.about-container {
     max-width: 960px;
     margin: auto;
     overflow: hidden;
     padding: 4rem 1rem;
 }
 
-.grid-2 {
+.about-container-grid {  /*grid 2*/
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .retrato-animado{
-    width: 70%;
+    width: 70%;   
 }
 
 .about{
@@ -141,69 +144,24 @@ body {
 
 /*  FIN SOBRE MI  */  
 
+
 /*     FOOTER     */  
 
-  footer {
+.footer {
     padding: 2.2rem;
-  }
-
-  footer p {
-    margin: 0;
-  }
-
-  .bg-dark {
     background: #333;
     color: #f4f4f4;
-  }
+}
 
-  .center {
+.footer p {
+    margin: 0;
     text-align: center;
     margin: auto;
-  }
+}
+ 
 
-/*   FIN FOOTER   */  
+  /*   FIN FOOTER   */  
 
 
 
-  /* Small Screens */
-  @media (max-width: 560px) {
-    .showcase::after {
-      height: 50vh;
-    }
-
-    .content {
-      top: 5%;
-      margin-top: 5px;
-    }
-
-    .content .logo {
-      height: 140px;
-      width: 140px;
-    }
-
-    .content .text {
-      display: none;
-    }
-
-    .grid-3,
-    .grid-2 {
-      grid-template-columns: 1fr;
-    }
-
-    .services div {
-      border-bottom: #333 dashed 1px;
-      padding: 1.2rem 1rem;
-    }
-  }
-
-  /* Landscape */
-  @media (max-height: 500px) {
-    .content .title,
-    .content .text {
-      display: none;
-    }
-
-    .content {
-      top: 0;
-    }
-  }
+ 

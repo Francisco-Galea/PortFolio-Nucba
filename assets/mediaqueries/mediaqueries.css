@@ -1,0 +1,53 @@
+ 
+
+    /*-- Pantalas chicas --*/
+
+ @media (max-width: 560px) {
+    .hero::after {       
+    height: 50vh;
+}
+
+.hero-content {
+    top: 5%;
+    margin-top: 5px;
+}
+
+.hero-content .logo {
+    height: 140px;
+    width: 140px;
+}
+
+.info div {
+    border-bottom: #333 dashed 1px;
+    padding: 1.2rem 1rem;
+}
+
+.retrato-animado {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-container-grid {
+    grid-template-columns: 1fr;
+}
+
+.hero-content .texto{
+    display: none;
+}
+
+}
+
+
+    /*-- Land  --*/
+
+@media (max-height: 500px) {
+
+.hero-content {
+    top: 0;
+}
+
+.hero-content .texto{
+    display: none;
+}
+}
