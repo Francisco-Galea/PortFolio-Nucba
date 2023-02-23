@@ -147,21 +147,61 @@ body {
 
 /*     FOOTER     */  
 
-.footer {
-    padding: 2.2rem;
-    background: #333;
-    color: #f4f4f4;
+.footer{
+    width: 100%;
+    background-color: #0a141d;
 }
-
-.footer p {
-    margin: 0;
-    text-align: center;
+.footer .footer-1{
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
 }
- 
+.footer .footer-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-1 .box figure img{
+    width: 150px;
+}
+.footer .footer-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.footer .footer-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.footer .footer-1 .contact a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.footer .footer-1 .contact a:hover{
+    color: aqua;
+}
+.footer .footer-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.footer .footer-2 small{
+    font-size: 15px;
+}
 
-  /*   FIN FOOTER   */  
-
-
-
- 
+ /*   FIN FOOTER   */  
