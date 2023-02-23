@@ -36,6 +36,12 @@
     display: none;
 }
 
+.footer .footer-1{
+    width: 100%;
+    grid-gap:30px;
+    padding: 15px 0px;
+}
+
 }
 
 
