@@ -19,12 +19,6 @@
     padding: 1.2rem 1rem;
 }
 
-.retrato-animado {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 .about-container-grid {
     grid-template-columns: 1fr;
 }
