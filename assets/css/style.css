@@ -161,6 +161,10 @@ body {
     padding: 45px 0px;
 }
 
+.footer .footer-1 .box-left{
+    margin-left: 15px;
+}
+
 .footer .footer-1 .box-left h2{
     color: #fff;
     margin-bottom: 25px;
