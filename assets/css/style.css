@@ -149,7 +149,7 @@ body {
 .footer{
     width: 100%;
     background-color: #0a141d;
-    text-align: center;
+    
 }
 .footer .footer-1{
     width: 100%;
@@ -161,16 +161,17 @@ body {
     padding: 45px 0px;
 }
 
-.footer .footer-1 .box h2{
+.footer .footer-1 .box-left h2{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
+    text-align: center;
 }
-.footer .footer-1 .box p{
+.footer .footer-1 .box-left p{
     color: #efefef;
     margin-bottom: 10px;
 }
-.footer .footer-1 .contact a{
+.footer .footer-1 .contact a{ 
     display: inline-block;
     text-decoration: none;
     width: 45px;
