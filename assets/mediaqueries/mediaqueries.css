@@ -1,6 +1,3 @@
- 
-
-    /*-- Pantalas chicas --*/
 
  @media (max-width: 560px) {
     .hero::after {       
@@ -32,7 +29,7 @@
     grid-template-columns: 1fr;
 }
 
-.hero-content .texto{
+.hero-content .text{
     display: none;
 }
 
@@ -45,15 +42,13 @@
 }
 
 
-    /*-- Land  --*/
-
 @media (max-height: 500px) {
 
 .hero-content {
     top: 0;
 }
 
-.hero-content .texto{
+.hero-content .text{
     display: none;
 }
 }
