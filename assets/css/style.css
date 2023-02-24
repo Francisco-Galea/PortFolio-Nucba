@@ -5,7 +5,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 /* HERO */
 
 .hero::after {
@@ -49,14 +48,14 @@ body {
     width: 180px;
 }
 
-.hero-content .titulo {
+.hero-content .title {
     font-size: 2.2rem;
     margin-top: 1rem;
 }
 
-.hero-content .texto {
+.hero-content .text {
     line-height: 1.7;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 /*  FIN HERO */
@@ -157,7 +156,7 @@ body {
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
+    grid-gap:150px;
     padding: 45px 0px;
 }
 .footer .footer-1 .box figure{
@@ -202,6 +201,10 @@ body {
 }
 .footer .footer-2 small{
     font-size: 15px;
+}
+
+.footer .footer-2 a{
+    color: #efefef;
 }
 
  /*   FIN FOOTER   */  
