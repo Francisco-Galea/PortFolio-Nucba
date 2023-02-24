@@ -36,7 +36,10 @@
 .footer .footer-1{
     width: 100%;
     grid-gap:30px;
+}
 
+.footer .footer-1 p{
+    margin-left: 15px;
 }
 
 }
