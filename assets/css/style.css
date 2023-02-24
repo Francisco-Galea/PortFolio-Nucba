@@ -155,8 +155,8 @@ body {
     max-width: 1200px;
     margin: auto;
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:150px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:200px;
     padding: 45px 0px;
 }
 .footer .footer-1 .box figure{
